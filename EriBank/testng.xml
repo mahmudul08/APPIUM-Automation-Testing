@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Functionality">
+	<test name="Input Into valid Credentials">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="app" value="D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk"></parameter>
+		<classes>
+			<class name="loginFunctionality.TC001ValidCredentials" />
+		</classes>
+	</test>
+
+	<test name="Input Into Invalid Credentials">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="app" value="D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk"></parameter>
+		<classes>
+			<class name="loginFunctionality.TC002InvalidCredentials" />
+		</classes>
+	</test>
+
+	<test name="All Filed Are Blank">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="app" value="D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk"></parameter>
+		<classes>
+			<class name="loginFunctionality.TC003Blank" />
+		</classes>
+	</test>
+
+	<test name="Login Into Special Character">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="app" value="D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk"></parameter>
+		<classes>
+			<class name="loginFunctionality.TC004InputSpecialCharacter" />
+		</classes>
+	</test>
+
+	<test name="Login Into SQLi">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="app" value="D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk"></parameter>
+		<classes>
+			<class name="loginFunctionality.TC005SQLITest" />
+		</classes>
+	</test>
+</suite> <!-- Login Functionality -->

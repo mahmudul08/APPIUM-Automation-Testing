@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Functionality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Filed Are Blank(failed)">
+    <parameter name="app" value="C:\\Users\\Cloudly Infotech Ltd\\Desktop\\100 Days\\DemoAppium\\EriBank.apk"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <classes>
+      <class name="loginFunctionality.TC003Blank">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="All_Field_Blank"/>
+        </methods>
+      </class> <!-- loginFunctionality.TC003Blank -->
+    </classes>
+  </test> <!-- All Filed Are Blank(failed) -->
+</suite> <!-- Failed suite [Login Functionality] -->

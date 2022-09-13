@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login_Functionality" class="navigator-link">
+              <span class="suite-name border-passed">Login Functionality</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login_Functionality" class="navigator-link ">
+                    <span>D:\SQA\Final Project\Appium Automation Testing\EriBank\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login_Functionality" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login_Functionality" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login_Functionality" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login_Functionality" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login_Functionality" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login_Functionality" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login_Functionality" class="hide-methods passed suite-Login_Functionality"> (hide)</a> <!-- hide-methods passed suite-Login_Functionality -->
+                      <a href="#" panel-name="suite-Login_Functionality" class="show-methods passed suite-Login_Functionality"> (show)</a> <!-- show-methods passed suite-Login_Functionality -->
+                    </span>
+                    <div class="method-list-content passed suite-Login_Functionality">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Functionality" title="loginFunctionality.TC003Blank" class="method navigator-link" hash-for-method="All_Field_Blank">All_Field_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Functionality" title="loginFunctionality.TC001ValidCredentials" class="method navigator-link" hash-for-method="Input_Into_Valid_Credentials">Input_Into_Valid_Credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Functionality" title="loginFunctionality.TC004InputSpecialCharacter" class="method navigator-link" hash-for-method="Input_Special_Character">Input_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Functionality" title="loginFunctionality.TC002InvalidCredentials" class="method navigator-link" hash-for-method="Login_Into_Invalid_Credentials">Login_Into_Invalid_Credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Functionality" title="loginFunctionality.TC005SQLITest" class="method navigator-link" hash-for-method="SQLi_Test">SQLi_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login_Functionality -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login_Functionality" class="panel Login_Functionality">
+          <div class="suite-Login_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginFunctionality.TC002InvalidCredentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Into_Invalid_Credentials">
+                  </a> <!-- Login_Into_Invalid_Credentials -->
+                  <span class="method-name">Login_Into_Invalid_Credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Functionality-class-passed -->
+          <div class="suite-Login_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginFunctionality.TC003Blank</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="All_Field_Blank">
+                  </a> <!-- All_Field_Blank -->
+                  <span class="method-name">All_Field_Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Functionality-class-passed -->
+          <div class="suite-Login_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginFunctionality.TC001ValidCredentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Input_Into_Valid_Credentials">
+                  </a> <!-- Input_Into_Valid_Credentials -->
+                  <span class="method-name">Input_Into_Valid_Credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Functionality-class-passed -->
+          <div class="suite-Login_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginFunctionality.TC005SQLITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SQLi_Test">
+                  </a> <!-- SQLi_Test -->
+                  <span class="method-name">SQLi_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Functionality-class-passed -->
+          <div class="suite-Login_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginFunctionality.TC004InputSpecialCharacter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Input_Special_Character">
+                  </a> <!-- Input_Special_Character -->
+                  <span class="method-name">Input_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Functionality-class-passed -->
+        </div> <!-- panel Login_Functionality -->
+        <div panel-name="test-xml-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SQA\Final Project\Appium Automation Testing\EriBank\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login Functionality&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Input Into valid Credentials&quot;&gt;
+    &lt;parameter name=&quot;app&quot; value=&quot;D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginFunctionality.TC001ValidCredentials&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Input Into valid Credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Input Into Invalid Credentials&quot;&gt;
+    &lt;parameter name=&quot;app&quot; value=&quot;D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginFunctionality.TC002InvalidCredentials&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Input Into Invalid Credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Filed Are Blank&quot;&gt;
+    &lt;parameter name=&quot;app&quot; value=&quot;D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginFunctionality.TC003Blank&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Filed Are Blank --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Into Special Character&quot;&gt;
+    &lt;parameter name=&quot;app&quot; value=&quot;D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginFunctionality.TC004InputSpecialCharacter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Into Special Character --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Into SQLi&quot;&gt;
+    &lt;parameter name=&quot;app&quot; value=&quot;D:\SQA\Final Project\Appium Automation Testing\EriBank\\EriBank.apk&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginFunctionality.TC005SQLITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Into SQLi --&gt;
+&lt;/suite&gt; &lt;!-- Login Functionality --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login Functionality</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Input Into valid Credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Input Into Invalid Credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">All Filed Are Blank (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Into Special Character (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Into SQLi (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login Functionality</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login Functionality</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login_Functionality');
+function tableData_Login_Functionality() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Input_Into_Valid_Credentials')
+data.setCell(0, 2, 'loginFunctionality.TC001ValidCredentials')
+data.setCell(0, 3, 11914);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_Into_Invalid_Credentials')
+data.setCell(1, 2, 'loginFunctionality.TC002InvalidCredentials')
+data.setCell(1, 3, 11365);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SQLi_Test')
+data.setCell(2, 2, 'loginFunctionality.TC005SQLITest')
+data.setCell(2, 3, 10947);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Input_Special_Character')
+data.setCell(3, 2, 'loginFunctionality.TC004InputSpecialCharacter')
+data.setCell(3, 3, 10937);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'All_Field_Blank')
+data.setCell(4, 2, 'loginFunctionality.TC003Blank')
+data.setCell(4, 3, 10343);
+window.suiteTableData['Login_Functionality']= { tableData: data, tableDiv: 'times-div-Login_Functionality'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-Login_Functionality">
+              </div> <!-- times-div-Login_Functionality -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login Functionality</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login_Functionality" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginFunctionality.TC001ValidCredentials</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Input_Into_Valid_Credentials</span>
+                <span class="method-start">25101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">37022 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginFunctionality.TC002InvalidCredentials</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37692 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login_Into_Invalid_Credentials</span>
+                <span class="method-start">49214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">60583 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginFunctionality.TC003Blank</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">60606 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">All_Field_Blank</span>
+                <span class="method-start">71629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">81981 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginFunctionality.TC004InputSpecialCharacter</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82445 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Input_Special_Character</span>
+                <span class="method-start">94099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">105037 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginFunctionality.TC005SQLITest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">105063 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SQLi_Test</span>
+                <span class="method-start">116630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127578 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
